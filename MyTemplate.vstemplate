@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>WinFormsApp5.vb</DefaultName>
+    <Name>WinFormsApp5</Name>
+    <Description>&lt;Aucune description disponible&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System.Windows.Forms</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Threading.Tasks.Dataflow</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Microsoft.VisualBasic</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Runtime.Handles</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Diagnostics.FileVersionInfo</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Data.Common</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Data</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Form" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">Form1.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.Designer.vb" ReplaceParameters="true">Form1.Designer.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.resx" ReplaceParameters="true">Form1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
